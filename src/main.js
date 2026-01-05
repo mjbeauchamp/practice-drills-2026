@@ -3,6 +3,7 @@ import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import { textEditorTestRun } from './editFunctionalityDrill.js'
+import { getSharedCoursePairings } from './dataManipulationDrill.js'
 
 // document.querySelector('#app').innerHTML = `
 //   <div>
@@ -21,12 +22,28 @@ import { textEditorTestRun } from './editFunctionalityDrill.js'
 //     </p>
 //   </div>
 // `
-
 // setupCounter(document.querySelector('#counter'))
 
 
 
 
 // TEXT EDITOR DRILL
-textEditorTestRun();
+// textEditorTestRun();
+
+// DATA MANIPULATION DRILL
+const enrollments1 = [
+ ["58", "Linear Algebra"],
+ ["94", "Art History"],
+ ["94", "Operating Systems"],
+ ["17", "Software Design"],
+ ["58", "Mechanics"],
+ ["58", "Economics"],
+ ["17", "Linear Algebra"],
+ ["17", "Political Science"],
+ ["94", "Economics"],
+ ["25", "Economics"],
+ ["58", "Software Design"],
+]
+
+// console.log(getSharedCoursePairings(enrollments1));
 

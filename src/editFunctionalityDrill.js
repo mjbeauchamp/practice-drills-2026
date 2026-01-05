@@ -1,25 +1,7 @@
 // Starter Code - SEE CODE BELOW FOR SOLUTION
-export class TextEditor {
-    constructor(text) {
-
-    }
-
-    edit() {
-
-    }
-
-    undo() {
+class TextEditor {
     
-    }
-
-    redo() {
- 
-    }
-
-    getText() {
-
-    }
-}  
+}
 
 export function textEditorTestRun() {
     const myName = new TextEditor('Monica');
