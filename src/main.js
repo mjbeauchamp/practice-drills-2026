@@ -2,8 +2,10 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
-import { textEditorTestRun } from './editFunctionalityDrill.js'
-import { getSharedCoursePairings } from './dataManipulationDrill.js'
+// import { textEditorTestRun } from './editFunctionalityDrill.js'
+// import { getSharedCoursePairings } from './dataManipulationDrill.js'
+import { recursiveFlattenObject } from './recursiveFlattenObject.js'
+import { recursiveFlattenObjectPart2 } from './recursiveFlattenObjectPart2.js'
 
 // document.querySelector('#app').innerHTML = `
 //   <div>
@@ -47,3 +49,6 @@ const enrollments1 = [
 
 // console.log(getSharedCoursePairings(enrollments1));
 
+// RECURSION - FLATTENING OBJECT DRILLS
+// recursiveFlattenObject();
+recursiveFlattenObjectPart2();
