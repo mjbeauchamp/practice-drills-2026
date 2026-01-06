@@ -4,8 +4,9 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 // import { textEditorTestRun } from './editFunctionalityDrill.js'
 // import { getSharedCoursePairings } from './dataManipulationDrill.js'
-import { recursiveFlattenObject } from './recursiveFlattenObject.js'
-import { recursiveFlattenObjectPart2 } from './recursiveFlattenObjectPart2.js'
+// import { recursiveFlattenObject } from './recursiveFlattenObject.js'
+// import { recursiveFlattenObjectPart2 } from './recursiveFlattenObjectPart2.js'
+import { vanillaDomManipulation } from './vanillaDomManipulation.js'
 
 // document.querySelector('#app').innerHTML = `
 //   <div>
@@ -51,4 +52,7 @@ const enrollments1 = [
 
 // RECURSION - FLATTENING OBJECT DRILLS
 // recursiveFlattenObject();
-recursiveFlattenObjectPart2();
+// recursiveFlattenObjectPart2();
+
+// VANILLA DOM MANIPULATION DRILLS
+vanillaDomManipulation()

@@ -94,3 +94,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#animal-list {
+  list-style: none;
+  padding: 0;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+#animal-list li button {
+  width: 100%;
+  background: yellow;
+  border-radius: 0;
+}
